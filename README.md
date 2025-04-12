@@ -13,7 +13,7 @@ This project explores the intersection between film budgets, box office performa
 - [Methodology](#methodology)
 - [Analysis and Visualizations](#analysis-and-visualizations)
 - [Findings](#findings)
-- [Recomendations](#Recomendations)
+- [Recomendations](#recomendations)
 
 ---
 
@@ -105,8 +105,7 @@ df.groupby('budget_category')['ROI'].sum().sort_values(ascending= False)
 
 - Tory story has a ROI of (12.147) followed by finding Nemo (8.266) and inside out 2 (7.490)
 - Very high budget films performed exceptionally well with a sum total of ($124,833,591,462), followed by high budget films ($2,099,645,228) and Moderate budget films ($2,013,815,346) it is also worth to note that very high budget films are 18 in number while high budget films and Moderate budget films are 5 and 3 respectively.
-- Films earn less domestically in the US/Canada box office at ($6,931,243,909)
-While internationally films earn ($10,111,357,027)
+- Films earn less domestically in the US/Canada box office at ($6,931,243,909) While internationally films earn ($10,111,357,027)
 - Soul and Luca had the highest share of international revenue at 99.2% and 97.4% respectively.
 - Very high budget films perform better followed by Moderate budget then high budget.
 - Cars 2, Cars 3 are films where critics and audiences strongly disagree.
@@ -117,8 +116,11 @@ While internationally films earn ($10,111,357,027)
 ---
 
 ## 🧾 Recomendations
+- Allocate more funding toward well-written, lower-budget animations or family films, especially from established franchises. These films can yield impressive profits while minimizing risk
+- Don’t assume high budget equals success. Prioritize strong scripts, branding, and marketing over sheer budget size.
+-  Use ROI as a core success metric, not just worldwide gross. It’s more reflective of actual business performance and long-term strategy.
 
-Wrap up the analysis and suggest possible next steps or future improvements. Mention any limitations.
+
 
 ---
 
