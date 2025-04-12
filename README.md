@@ -27,7 +27,7 @@ This project explores the intersection between film budgets, box office performa
 
 ## 📂 Dataset
 
-- **Source:** [Link to dataset]
+- **Source:** <a href = "https://github.com/ikechidiogo19/Pixar-film-analysis/blob/main/pixar_films.csv"> dataset </a>
 - **Format:** CSV
 ---
 
