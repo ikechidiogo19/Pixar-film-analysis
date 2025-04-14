@@ -1,5 +1,5 @@
 
-# 📊 Pixar-film-analysis
+# 📊 Pixar film analysis
 
 This project analyzes a dataset of animated films, focusing on financial performance, critical reception, and audience feedback. Key metrics include budget, box office earnings (domestic and international), return on investment (ROI), and review scores from platforms such as Rotten Tomatoes, Metacritic, and IMDb.
 
