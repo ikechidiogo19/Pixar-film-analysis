@@ -1,27 +1,12 @@
 
 # 📊 Pixar-film-analysis
 
-This project explores the intersection between film budgets, box office performance, and critical/audience reception. It analyzes a dataset of major film releases using Python to uncover business-relevant insights, such as return on investment (ROI), box office trends, and the role of critic vs. audience ratings.
-
----
-
-## 📌 Table of Contents
-
-- [Project Overview](#project-overview)
-- [Dataset](#dataset)
-- [Business/Research Questions](#businessresearch-questions)
-- [Methodology](#methodology)
-- [Analysis and Visualizations](#analysis-and-visualizations)
-- [Findings](#findings)
-- [Recomendations](#recomendations)
+This project analyzes a dataset of animated films, focusing on financial performance, critical reception, and audience feedback. Key metrics include budget, box office earnings (domestic and international), return on investment (ROI), and review scores from platforms such as Rotten Tomatoes, Metacritic, and IMDb.
 
 ---
 
 ## 🧠 Project Overview
-- Identify which films yielded the highest ROI and what contributed to their success.
-- Compare domestic (US/Canada) vs. international revenue performance.
-- Investigate the relationship between critical/audience ratings and commercial success.
-- Use data-driven methods to suggest strategic decisions for film production and marketing.
+The goal of this analysis is to understand how different factors like budget, critical scores, and release strategy impact a film's financial success. The study looked into ROI, audience vs critic perception, domestic vs international revenue, and the influence of budget size.
 
 ---
 
@@ -104,12 +89,12 @@ df.groupby('budget_category')['ROI'].sum().sort_values(ascending= False)
 ## 📌 Findings
 
 - Tory story has a ROI of (12.147) followed by finding Nemo (8.266) and inside out 2 (7.490)
-- Very high budget films performed exceptionally well with a sum total of ($124,833,591,462), followed by high budget films ($2,099,645,228) and Moderate budget films ($2,013,815,346) it is also worth to note that very high budget films are 18 in number while high budget films and Moderate budget films are 5 and 3 respectively.
-- Films earn less domestically in the US/Canada box office at ($6,931,243,909) While internationally films earn ($10,111,357,027)
-- Soul and Luca had the highest share of international revenue at 99.2% and 97.4% respectively.
+- Very high budget films performed exceptionally well with a sum total of ($124,833,591,462), followed by high budget films ($2,099,645,228) and Moderate budget films ($2,013,815,346) 
+- International markets contributed more revenue ($10.1B) than domestic ($6.9B).
+- Films like Soul and Luca earned over 97% of their box office revenue internationally.
 - Very high budget films perform better followed by Moderate budget then high budget.
 - Cars 2, Cars 3 are films where critics and audiences strongly disagree.
-- Turning red (-0.875), Onward (-0.188), Soul (-0.187) are high budget films that had the worst ROI.
+- Turning Red, Onward, and Soul had negative ROI despite large budgets, indicating underperformance possibly due to audience reception..
 - Toy story (12.147) performed the most followed by finding nemo (8.266) and the incredible (5.863) where the low budget films that overperformed with High ROI 
 
 
@@ -117,12 +102,12 @@ df.groupby('budget_category')['ROI'].sum().sort_values(ascending= False)
 
 ## 🧾 Recomendations
 - Allocate more funding toward well-written, lower-budget animations or family films, especially from established franchises. These films can yield impressive profits while minimizing risk
-- Don’t assume high budget equals success. Prioritize strong scripts, branding, and marketing over sheer budget size.
+- Since international revenue often surpasses domestic, consider tailoring marketing and localization strategies for global audiences, especially in Europe and Asia.
 -  Use ROI as a core success metric, not just worldwide gross. It’s more reflective of actual business performance and long-term strategy.
 
-
-
 ---
+## Limitations
+- it is also worth to note that very high budget films are 18 in number while high budget films and Moderate budget films are 5 and 3 respectively.
 
 ## ⚙️ Technologies Used
 
