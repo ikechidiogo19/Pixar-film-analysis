@@ -29,7 +29,6 @@ The goal of this analysis is to understand how different factors like budget, cr
 
 ## 🛠 Methodology
 
-Outline your process:
 - Data Cleaning
 - Missing values in the 'cinema_score' column were filled with 'unknown'
 - Missing values in the 'budget' column were filled with 0
