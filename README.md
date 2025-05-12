@@ -83,6 +83,9 @@ df[['film','intenational_share']].sort_values(by = 'intenational_share', ascendi
 # Do higher-budget films always perform better than lower-budget ones?
 df.groupby('budget_category')['ROI'].sum().sort_values(ascending= False)
 ```
+# Viz
+![pix](https://github.com/user-attachments/assets/01be706e-5263-4f30-aafd-2b472e810b2f)
+
 ---
 
 ## 📌 Findings
